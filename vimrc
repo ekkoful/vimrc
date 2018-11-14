@@ -55,3 +55,4 @@ nnoremap <leader>bn :bn<CR>			  ";-bn 切换到下一个buffer
 nnoremap <leader>bp :bp<CR>			  ";-bn 切换到上一个buffer
 
 source ~/.vim/plugin.vimrc
+source ~/.vim/script.vimrc

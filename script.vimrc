@@ -20,6 +20,5 @@ call append(0, '___')
 call append(1, '- FileName: '.expand("%"))
 call append(2, '- Author: ihuangch -huangch96@qq.com')
 call append(3, '- Description: ---')
-call append(4, '- Create:'.strftime("%Y-%m-%d %H:%M:%S"))
-call append(5, '___')
+call append(4, '___')
 endfunc

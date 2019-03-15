@@ -1,16 +1,16 @@
 "====================VIM配置==================="
 "====Author:ihuangch
-"====Version:1.00
-"====Update:2018-10-26
+"====Version:1.0.1
+"====Update:2019-03-15
 "=============================================="
 
-
+"在mac os中配置vim
+"
 "===============系统基本配置无须插件==========="
 "----------------------------------------------"
 set nu                  "显示行号
 set showtabline=0       "隐藏顶部标签栏
 set nocompatible        "去了vi的一致性
-set syntax=on           "语法高亮
 set tabstop=4           "设置缩进
 set shiftwidth=4        "缩进
 set cursorline          "突出显示当前行
@@ -28,7 +28,8 @@ set laststatus=2		"总是显示状态栏
 "set nowrap				"设置不要折行
 set t_Co=256			"win下shell显示颜色
 "set cursorcolumn       "突出显示当前列
-
+syntax on
+set backspace=2			"mac中使用delete删除
 
 "=======设置配色方案========================="
 "=======使用xshell时不用设置================="
